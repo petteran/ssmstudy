@@ -8,5 +8,6 @@
 out
 gen
 /src/test/
-/target/
-
+/target/ssmstudy
+/target/generated-sources
+/target/classes
