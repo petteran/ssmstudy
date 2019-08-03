@@ -8,6 +8,16 @@ public class Department {
     public Integer getDeptId() {
         return deptId;
     }
+//有参数构造器
+    public Department(Integer deptId, String deptName) {
+        super();
+        this.deptId = deptId;
+        this.deptName = deptName;
+    }
+//无参构造器
+    public Department() {
+        super();
+    }
 
     public void setDeptId(Integer deptId) {
         this.deptId = deptId;
